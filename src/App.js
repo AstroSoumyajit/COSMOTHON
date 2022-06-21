@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="flex bg-black">
       <div
-        className={`${open ? "md:w-60" : "md:w-20"} bg-dark-purple h-screen p-5  pt-8 relative duration-300`}>
+        className={`${open ? "md:w-40" : "md:w-20"} bg-dark-purple h-screen p-5  pt-8 relative duration-300`}>
         <img alt="control"
           src={require('./assets/control.png')}
           className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
