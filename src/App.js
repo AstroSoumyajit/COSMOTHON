@@ -44,7 +44,7 @@ const App = () => {
         <img alt= "Spacevent" src= {require('./assets/Frame 14.png')} className= "object-contain h-12 w-30 "/>
         <li className="h-screen items-center flex-1 p-4">
         <img src={require('./assets/20220621_120453.png')}
-        className="w-[700px] h-[393.75px] items-center rounded-[31px] object-cover border border-white" />
+        className="md:w-[700px] md:h-[393.75px] items-center rounded-[31px] object-cover border border-white" />
         <button class="mt-9 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
   Button
 </button>
